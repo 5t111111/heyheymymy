@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pre_registrant.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @pre_registrant.email %>
+</p>
+
+<%= link_to 'Edit', edit_pre_registrant_path(@pre_registrant) %> |
+<%= link_to 'Back', pre_registrants_path %>
