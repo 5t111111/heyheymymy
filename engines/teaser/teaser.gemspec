@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Teaser::VERSION
   s.authors     = ["Hirofumi Wakasugi"]
   s.email       = ["baenej@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Teaser."
-  s.description = "TODO: Description of Teaser."
+  s.homepage    = "http://teaser.example.com"
+  s.summary     = "Mountable engine example"
+  s.description = "Mountable engine example"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
